@@ -11,17 +11,14 @@
 		body{
 			background-image: url(./1/1.jpg);
 			background-size: 100% 100%;
+			height: 100%;
+		}
+		html{
+			height:100%;
 		}
 	</style>
 </head>
 <body>
 	<h1>你妈死了</h1>
-
-	
-
-	
-
-
-
 </body>
 </html>
