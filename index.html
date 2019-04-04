@@ -8,24 +8,58 @@
 	王超的网页
 	</title>
 	<style type="text/css">
-	@keyframes myfirst{
+	@keyframes a{
+	0%{background: red; left:0px; top:0px;}
+    25%{background: yellow; left:1000px; top:0px;}
+    50%{background: blue; left:1000px; top:400px;}
+    75%{background: green; left:0px; top:400px;}
+    100%{background: red; left:0px; top:0px;}
+	}
+	@keyframes b{
+	0%{background: red; left:0px; top:0px;}
+    25%{background: yellow; left:600px; top:0px;}
+    50%{background: blue; left:600px; top:100px;}
+    75%{background: green; left:0px; top:100px;}
+    100%{background: red; left:0px; top:0px;}
+	}
+	@keyframes c{
+	0%{background: red; left:0px; top:0px;}
+    25%{background: yellow; left:400px; top:0px;}
+    50%{background: blue; left:400px; top:-200px;}
+    75%{background: green; left:0px; top:-200px;}
+    100%{background: red; left:0px; top:0px;}
+	}
+	@keyframes d{
 	0%{background: red; left:0px; top:0px;}
     25%{background: yellow; left:200px; top:0px;}
-    50%{background: blue; left:200px; top:200px;}
-    75%{background: green; left:0px; top:200px;}
+    50%{background: blue; left:200px; top:-300px;}
+    75%{background: green; left:0px; top:-300px;}
     100%{background: red; left:0px; top:0px;}
-}
+	}
 	p{
 		font-size: 50px;
 		width: 100px;
 		height: 100px;
 		position: relative;
-		animation: myfirst 10s infinite;
 	}
-
+	#a{
+		animation: a 10s infinite;
+	}
+	#b{
+		animation: b 10s infinite;
+	}
+	#c{
+		animation: c 10s infinite;
+	}
+	#d{
+		animation: d 10s infinite;
+	}
 	</style>
 </head>
 <body>
-	<p>你妈死了</p>
+	<p id="a">你妈死了</p>
+	<p id="b">你妈死了</p>
+	<p id="c">你妈死了</p>
+	<p id="d">你妈死了</p>
 </body>
 </html>
